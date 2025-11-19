@@ -183,10 +183,9 @@ body {
 
 .case-card {
   background: #ffffff;
-  padding: 28px;
-  border-radius: 16px;
-  /* box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.06); */
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  padding: 32px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
   animation: fadeInUp 0.5s ease-out backwards;
   border: 2px solid #e0e0e0;
   position: relative;
@@ -216,27 +215,48 @@ body {
 }
 
 .case-title {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 700;
   color: #000000;
-  margin-bottom: 12px;
+  /* margin-bottom: 8px; */
   line-height: 1.5;
   font-family: 'Stack Sans Headline', sans-serif;
   letter-spacing: -0.3px;
 }
 
+.case-court {
+  font-size: 0.89rem;
+  color: #555555;
+  margin-bottom: 4px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  font-family: 'Stack Sans Headline', sans-serif;
+}
+
 .case-citation {
-  font-size: 1rem;
-  color: #666666;
-  margin-bottom: 18px;
-  font-style: italic;
+  font-size: 0.8rem;
+  color: #888888;
+  /* margin-bottom: 16px; */
+  /* font-style: italic; */
   font-weight: 500;
+}
+
+.case-description {
+  font-size: 1rem;
+  color: #444444;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: 400;
+  text-align: justify;
 }
 
 .keywords-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
+  margin-top: 4px;
 }
 
 .keyword-tag {
@@ -248,9 +268,9 @@ body {
   border-radius: 25px;
   font-size: 0.875rem;
   font-weight: 600;
-  letter-spacing: 0.2px;
-  transition: all 0.3s ease;
-  border: 1px solid #e0e0e0;
+  letter-spacing: 0.3px;
+  transition: all 0.25s ease;
+  border: 1px solid #e8e8e8;
 }
 
 .keyword-tag:hover {
@@ -373,10 +393,10 @@ body {
   .case-card {
     padding: 22px;
   }
-
+/* 
   .case-title {
-    font-size: 1.15rem;
-  }
+    font-size: 1.35rem;
+  } */
 
   .results-grid {
     gap: 18px;
