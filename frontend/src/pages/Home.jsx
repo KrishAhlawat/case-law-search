@@ -27,7 +27,7 @@ function Home() {
 
     try {
       // Make API call to backend
-      const response = await fetch('http://localhost:5000/api/search', {
+      const response = await fetch('https://case-law-search.onrender.com/api/search', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

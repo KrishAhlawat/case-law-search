@@ -2,6 +2,11 @@
 
 A full-stack web application for searching case laws by keyword. Built with React (frontend) and Node.js + Express (backend).
 
+## 🌐 Live Demo
+
+- **Frontend**: https://case-law-search.vercel.app/
+- **Backend API**: https://case-law-search.onrender.com
+
 ## 📁 Project Structure
 
 ```
